@@ -153,3 +153,19 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.delete-participant {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.delete-participant:hover {
+  color: darkred;
+}
